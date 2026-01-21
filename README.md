@@ -45,29 +45,28 @@ The project is being developed using a **simulation-first approach**, ensuring t
 
 
 ┌─────────────────┐
-│ RGB-D Camera │ (Intel RealSense)
+│   RGB-D Camera  │ (Intel RealSense)
 └────────┬────────┘
-│
+         │
 ┌────────▼────────┐
 │ Object Detection│ (YOLOv8)
 └────────┬────────┘
-│
+         │
 ┌────────▼────────┐
 │ Pose Estimation │ (6DOF, RGB-D)
 └────────┬────────┘
-│
+         │
 ┌────────▼────────┐
-│ Grasp Planning │
+│ Grasp Planning  │
 └────────┬────────┘
-│
+         │
 ┌────────▼────────┐
 │ Motion Planning │ (MoveIt 2)
 └────────┬────────┘
-│
+         │
 ┌────────▼────────┐
-│ Arm + Gripper │ (ROS 2 Control)
+│ Arm + Gripper   │ (ROS 2 Control)
 └─────────────────┘
-
 
 ---
 
