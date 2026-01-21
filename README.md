@@ -1,19 +1,3 @@
-Absolutely 👍
-Below is a **clean, professional `README.md`**, rewritten **specifically for *your* project**, **solo**, and **accurate to what you have actually completed so far**.
-
-I have:
-
-* ✅ Removed team members (only **you**)
-* ✅ Updated the **ROS version to ROS 2 (Humble)** (matches your setup)
-* ✅ Adjusted **progress sections to reflect current work** (URDF, gripper, MoveIt prep)
-* ✅ Adjusted **dates to January 2026**
-* ✅ Kept it **guide/evaluator friendly** (clear, honest, not over-claiming)
-
-You can **copy-paste this directly as `README.md`**.
-
----
-
-```markdown
 # 🤖 Robotic Arm with Visual Grasping
 
 [![ROS 2](https://img.shields.io/badge/ROS%202-Humble-blue)](https://docs.ros.org/en/humble/)
@@ -59,33 +43,31 @@ The project is being developed using a **simulation-first approach**, ensuring t
 
 ## 🏗️ System Architecture
 
-```
 
 ┌─────────────────┐
-│ RGB-D Camera    │  (Intel RealSense)
+│ RGB-D Camera │ (Intel RealSense)
 └────────┬────────┘
 │
 ┌────────▼────────┐
-│ Object Detection│  (YOLOv8)
+│ Object Detection│ (YOLOv8)
 └────────┬────────┘
 │
 ┌────────▼────────┐
-│ Pose Estimation │  (6DOF, RGB-D)
+│ Pose Estimation │ (6DOF, RGB-D)
 └────────┬────────┘
 │
 ┌────────▼────────┐
-│ Grasp Planning  │
+│ Grasp Planning │
 └────────┬────────┘
 │
 ┌────────▼────────┐
-│ Motion Planning │  (MoveIt 2)
+│ Motion Planning │ (MoveIt 2)
 └────────┬────────┘
 │
 ┌────────▼────────┐
-│ Arm + Gripper   │  (ROS 2 Control)
+│ Arm + Gripper │ (ROS 2 Control)
 └─────────────────┘
 
-````
 
 ---
 
@@ -156,52 +138,49 @@ The project is being developed using a **simulation-first approach**, ensuring t
 cd ~/ws_moveit
 colcon build
 source install/setup.bash
-````
-
+```
 ### Launch Robot Visualization
-
 ```bash
 ros2 launch example_7 display.launch.py
 ```
+### 🧪 Test Joint Movement
 
-### Test Joint Movement
-
-* Use **Joint State Publisher GUI**
-* Verify arm and gripper motion
-
----
-
-## 🧪 Target Objects (Planned)
-
-* Bottle (cylindrical)
-* Box (rectangular)
-* Mug (handle-based grasping)
+- Use **Joint State Publisher GUI**
+- Verify **arm and gripper motion**
 
 ---
 
-## 📅 Project Roadmap
+### 🧪 Target Objects (Planned)
 
-| Phase   | Focus                      | Status         |
-| ------- | -------------------------- | -------------- |
-| Phase 1 | Arm & Gripper Modeling     | ✅ Completed    |
+- **Bottle** (cylindrical)
+- **Box** (rectangular)
+- **Mug** (handle-based grasping)
+
+---
+
+### 📅 Project Roadmap
+
+| Phase | Focus | Status |
+|------|------|------|
+| Phase 1 | Arm & Gripper Modeling | ✅ Completed |
 | Phase 2 | Motion Planning (MoveIt 2) | 🔄 In Progress |
-| Phase 3 | Vision & Pose Estimation   | 📅 Planned     |
-| Phase 4 | Autonomous Grasping        | 📅 Planned     |
-| Phase 5 | Hardware Deployment        | 📅 Planned     |
+| Phase 3 | Vision & Pose Estimation | 📅 Planned |
+| Phase 4 | Autonomous Grasping | 📅 Planned |
+| Phase 5 | Hardware Deployment | 📅 Planned |
 
 ---
 
-## 🔬 Research & Learning Outcomes
+### 🔬 Research & Learning Outcomes
 
-* Understanding of robot kinematics and URDF modeling
-* Practical experience with ROS 2 and MoveIt 2
-* Simulation-driven robotics development
-* Integration of perception with motion planning
-* Foundation for advanced research in robotic grasping
+- Understanding of robot kinematics and URDF modeling  
+- Practical experience with ROS 2 and MoveIt 2  
+- Simulation-driven robotics development  
+- Integration of perception with motion planning  
+- Foundation for advanced research in robotic grasping  
 
 ---
 
-## 📄 License
+### 📄 License
 
 This project is licensed under the **MIT License**.
 
@@ -210,6 +189,3 @@ This project is licensed under the **MIT License**.
 ⭐ *This repository documents an academic robotics project focused on learning, correctness, and real-world applicability.*
 
 **Last updated:** January 2026
-
-```
-
