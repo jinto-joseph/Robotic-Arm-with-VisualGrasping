@@ -27,6 +27,7 @@ _colcon_package_bash_source_script() {
 # source sh script of this package
 _colcon_package_bash_source_script "$_colcon_package_bash_COLCON_CURRENT_PREFIX/share/ros2_control_demo_example_5/package.sh"
 
+<<<<<<< HEAD
 # setting COLCON_CURRENT_PREFIX avoids determining the prefix in the sourced scripts
 COLCON_CURRENT_PREFIX="$_colcon_package_bash_COLCON_CURRENT_PREFIX"
 
@@ -35,5 +36,7 @@ _colcon_package_bash_source_script "$COLCON_CURRENT_PREFIX/share/ros2_control_de
 
 unset COLCON_CURRENT_PREFIX
 
+=======
+>>>>>>> humble
 unset _colcon_package_bash_source_script
 unset _colcon_package_bash_COLCON_CURRENT_PREFIX

@@ -2,7 +2,11 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+<<<<<<< HEAD
   set(CMAKE_INSTALL_PREFIX "/home/ws/install/ros2_control_demo_description")
+=======
+  set(CMAKE_INSTALL_PREFIX "/home/ws/src/ros2_control_demos/install/ros2_control_demo_description")
+>>>>>>> humble
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +47,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   include("/home/ws/build/ros2_control_demo_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+=======
+  include("/home/ws/src/ros2_control_demos/build/ros2_control_demo_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+>>>>>>> humble
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +62,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/home/ws/build/ros2_control_demo_description/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/ws/src/ros2_control_demos/build/ros2_control_demo_description/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> humble
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

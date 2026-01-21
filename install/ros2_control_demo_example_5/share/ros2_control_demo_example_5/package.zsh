@@ -38,6 +38,7 @@ colcon_zsh_convert_to_array() {
 _colcon_package_zsh_source_script "$_colcon_package_zsh_COLCON_CURRENT_PREFIX/share/ros2_control_demo_example_5/package.sh"
 unset convert_zsh_to_array
 
+<<<<<<< HEAD
 # setting COLCON_CURRENT_PREFIX avoids determining the prefix in the sourced scripts
 COLCON_CURRENT_PREFIX="$_colcon_package_zsh_COLCON_CURRENT_PREFIX"
 
@@ -46,5 +47,7 @@ _colcon_package_zsh_source_script "$COLCON_CURRENT_PREFIX/share/ros2_control_dem
 
 unset COLCON_CURRENT_PREFIX
 
+=======
+>>>>>>> humble
 unset _colcon_package_zsh_source_script
 unset _colcon_package_zsh_COLCON_CURRENT_PREFIX

@@ -3,7 +3,11 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/ws/src/ros2_control_demos/ros2_control_demo_description")
+<<<<<<< HEAD
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ws/build/ros2_control_demo_description")
+=======
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ws/src/ros2_control_demos/build/ros2_control_demo_description")
+>>>>>>> humble
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

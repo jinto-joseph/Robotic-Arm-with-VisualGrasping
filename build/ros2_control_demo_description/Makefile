@@ -60,7 +60,11 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/ws/src/ros2_control_demos/ros2_control_demo_description
 
 # The top-level build directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_BINARY_DIR = /home/ws/build/ros2_control_demo_description
+=======
+CMAKE_BINARY_DIR = /home/ws/src/ros2_control_demos/build/ros2_control_demo_description
+>>>>>>> humble
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +146,15 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ws/build/ros2_control_demo_description/CMakeFiles /home/ws/build/ros2_control_demo_description//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ws/build/ros2_control_demo_description/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ws/src/ros2_control_demos/build/ros2_control_demo_description/CMakeFiles /home/ws/src/ros2_control_demos/build/ros2_control_demo_description//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ws/src/ros2_control_demos/build/ros2_control_demo_description/CMakeFiles 0
+>>>>>>> humble
 .PHONY : all
 
 # The main clean target

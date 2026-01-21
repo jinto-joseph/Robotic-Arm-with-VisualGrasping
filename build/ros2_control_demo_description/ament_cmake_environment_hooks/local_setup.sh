@@ -2,7 +2,11 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
+<<<<<<< HEAD
 : ${AMENT_CURRENT_PREFIX:="/home/ws/install/ros2_control_demo_description"}
+=======
+: ${AMENT_CURRENT_PREFIX:="/home/ws/src/ros2_control_demos/install/ros2_control_demo_description"}
+>>>>>>> humble
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

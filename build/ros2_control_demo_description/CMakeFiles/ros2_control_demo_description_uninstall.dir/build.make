@@ -56,7 +56,11 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/ws/src/ros2_control_demos/ros2_control_demo_description
 
 # The top-level build directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_BINARY_DIR = /home/ws/build/ros2_control_demo_description
+=======
+CMAKE_BINARY_DIR = /home/ws/src/ros2_control_demos/build/ros2_control_demo_description
+>>>>>>> humble
 
 # Utility rule file for ros2_control_demo_description_uninstall.
 
@@ -67,7 +71,11 @@ include CMakeFiles/ros2_control_demo_description_uninstall.dir/compiler_depend.m
 include CMakeFiles/ros2_control_demo_description_uninstall.dir/progress.make
 
 CMakeFiles/ros2_control_demo_description_uninstall:
+<<<<<<< HEAD
 	/usr/bin/cmake -P /home/ws/build/ros2_control_demo_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+=======
+	/usr/bin/cmake -P /home/ws/src/ros2_control_demos/build/ros2_control_demo_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+>>>>>>> humble
 
 ros2_control_demo_description_uninstall: CMakeFiles/ros2_control_demo_description_uninstall
 ros2_control_demo_description_uninstall: CMakeFiles/ros2_control_demo_description_uninstall.dir/build.make
@@ -82,6 +90,10 @@ CMakeFiles/ros2_control_demo_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros2_control_demo_description_uninstall.dir/clean
 
 CMakeFiles/ros2_control_demo_description_uninstall.dir/depend:
+<<<<<<< HEAD
 	cd /home/ws/build/ros2_control_demo_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ws/src/ros2_control_demos/ros2_control_demo_description /home/ws/src/ros2_control_demos/ros2_control_demo_description /home/ws/build/ros2_control_demo_description /home/ws/build/ros2_control_demo_description /home/ws/build/ros2_control_demo_description/CMakeFiles/ros2_control_demo_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/ws/src/ros2_control_demos/build/ros2_control_demo_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ws/src/ros2_control_demos/ros2_control_demo_description /home/ws/src/ros2_control_demos/ros2_control_demo_description /home/ws/src/ros2_control_demos/build/ros2_control_demo_description /home/ws/src/ros2_control_demos/build/ros2_control_demo_description /home/ws/src/ros2_control_demos/build/ros2_control_demo_description/CMakeFiles/ros2_control_demo_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> humble
 .PHONY : CMakeFiles/ros2_control_demo_description_uninstall.dir/depend
 
